@@ -43,7 +43,7 @@ Both x64 and x86 binaries for Linux and Windows can be downloaded from the "Rele
 
 
 # Notice:
-I do not maintain the original project, please visit the link to the original maintainer below more information on how to report bugs and about the socat project in general:
+I did not write this, nor do I maintain the original project. This is simply a mirror repo hosting pre-compiled release builds. All original licenses apply. All credit goes to the original creator/maintainer, please visit the link to the original maintainer below more information on how to report bugs and about the socat project in general:
 - http://www.dest-unreach.org/socat/
 
 Also checkout the original README below for more information:
