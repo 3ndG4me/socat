@@ -36,7 +36,7 @@ Both x64 and x86 binaries for Linux and Windows can be downloaded from the "Rele
 3. `cd socat`
 4. `./configure`
 5. `make`
-    - *NOTICE*: For version 1.7.3.3 the `xio-termios.c` file had a function call on line `359` that passed the parameter `speed` as the type of `speed_t`. According the interface for this function, defined in the `xio-termios.h` header file, this paramter is supposed to be an `unsigned int`. This is a strange error that only occurs with the mac version during the intial build with `make`. It i simply patched by changing the `speed_t` type of the `speed` parameter to the `unsigned int` that the interface is expecting.
+    - *NOTICE*: For version 1.7.3.3 the `xio-termios.c` file had a function call on line `359` that passed the parameter `speed` as the type of `speed_t`. According the interface for this function, defined in the `xio-termios.h` header file, this paramter is supposed to be an `unsigned int`. This is a strange error that only occurs with the mac version during the intial build with `make`. It is simply patched by changing the `speed_t` type of the `speed` parameter to the `unsigned int` that the interface is expecting.
 6. A `socat` binary will be in the root of the socat repo
 7. *Optional* `make install` (will install socat into your path)
 
