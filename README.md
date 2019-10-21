@@ -23,7 +23,7 @@ Both x64 and x86 binaries for Linux and Windows can be downloaded from the "Rele
     - `cygwin32-gcc-g++`
     - `cygwin32-gcc-core`
     - `make`
-2. Clone or download the zip for this repo `git clone https://github.com/3ndG4me/socat.git`
+2. Using Cygwin, clone or download the zip for this repo `git clone https://github.com/3ndG4me/socat.git`
 3. `cd socat`
 4. `./configure`
 5. `make`
