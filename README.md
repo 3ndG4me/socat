@@ -1,5 +1,5 @@
 # socat
-Mirror of the socat source code with pre-built releases for Windows and Linux (x64 and x86)
+Mirror of the socat source code with pre-built releases for Windows, Linux (x64 and x86), and MacOS (x64)
 
 # Releases
 Both x64 and x86 binaries for Linux and Windows can be downloaded from the "Releases" section of this repo. An x64 MacOS binary is available as well:
